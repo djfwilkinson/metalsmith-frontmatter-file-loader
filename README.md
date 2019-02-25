@@ -4,6 +4,8 @@ A [Metalsmith](http://www.metalsmith.io/) plugin to load files from paths added 
 
 You could then use [metalsmith-frontmatter-renderer]() to render the loaded data into html.
 
+[![Build Status](https://travis-ci.org/djfwilkinson/metalsmith-frontmatter-file-loader.svg?branch=master)](https://travis-ci.org/djfwilkinson/metalsmith-frontmatter-file-loader)
+
 ## Installation
 
     $ npm install metalsmith-frontmatter-file-loader
