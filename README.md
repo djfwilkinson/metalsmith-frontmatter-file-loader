@@ -69,22 +69,22 @@ metalsmith.use(fmfl({
 
 ## Example frontmatter
 *src/index.html*
-<pre><code class="language-html">---
+<pre><code class="language-html">&mdash;&mdash;&mdash;
 files:
     foo: &#39;./files/foo.txt&#39;
     bar: &#39;./files/bar.md&#39;
----
+&mdash;&mdash;&mdash;
 &lt;h1&gt;This is the &lt;code&gt;contents&lt;/code&gt; of the file.&lt;/h1&gt;</code></pre>
 
 By default this would load the contents of `./files/foo.txt` (relative to the metalsmith root, not the file containing the frontmatter) and replace the path with the file contents. Then it would do the same for `./files/bar.md`. It doesn't do any conversion of the data but you can use [metalsmith-frontmatter-renderer](#) if you desire this behaviour.
 
 e.g this is the equivalent of having written out the file contents into the frontmatter as so:
 
-<pre><code class="language-html">---
+<pre><code class="language-html">&mdash;&mdash;&mdash;
 files:
     foo: &#39;This is the text content of ./files/foo.txt!&#39;
     bar: &#39;This is the *markdown* content of `./files/bar.md` :)&#39;
----
+&mdash;&mdash;&mdash;
 &lt;h1&gt;This is the &lt;code&gt;contents&lt;/code&gt; of the file.&lt;/h1&gt;</code></pre>
 
 *If you use a property other than `files` then you can pass the name as a configuration option. See the config documentation above.*
