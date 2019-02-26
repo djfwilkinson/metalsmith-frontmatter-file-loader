@@ -16,7 +16,7 @@
     "metalsmith",
     "frontmatter"
   ],
-  "author": "Daniel Wilkinson (opensource@djfw.co.uk)",
+  "author": "Daniel Wilkinson <opensource@djfw.co.uk>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/djfwilkinson/metalsmith-frontmatter-file-loader/issues"
