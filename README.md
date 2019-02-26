@@ -2,7 +2,7 @@
 
 A [Metalsmith](http://www.metalsmith.io/) plugin to load files from paths added to frontmatter.
 
-You could then use [metalsmith-frontmatter-renderer]() to render the loaded data into html.
+You could then use [metalsmith-frontmatter-renderer](https://github.com/djfwilkinson/metalsmith-frontmatter-renderer) to render the loaded data into html.
 
 [![Build Status](https://travis-ci.org/djfwilkinson/metalsmith-frontmatter-file-loader.svg?branch=master)](https://travis-ci.org/djfwilkinson/metalsmith-frontmatter-file-loader)
 
