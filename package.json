@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-frontmatter-file-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Metalsmith plugin to iterate through the properties of an object provided as frontmatter. For each property it replaces the value with the string contents of a utf-8 encoded file resolved using the original value as a file path.",
   "main": "lib/metalsmith-frontmatter-file-loader.js",
   "scripts": {
