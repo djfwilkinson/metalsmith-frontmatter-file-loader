@@ -17,12 +17,14 @@ You can pass some basic options to customize the behaviour:
 ```json
 {
   "key": "files",
+  "out": "files",
   "suppressNoFilesError": false,
   "allowMissingFiles": false
 }
 ```
 
-- `key` is the key of the object to iterate over in the files frontmatter. Default `files`.
+- `key` is the key of the object to iterate over in the files frontmatter. Default `"files"`.
+- `out` is the key of the object to update the values upon. Default the value of `key`.
 - `suppressNoFilesError` is a boolean to determine the behaviour when there are no files to load. Set to `true` to prevent an error being thrown if there are no files to load. Default `false`.
 - `allowMissingFiles` is a boolean to determine the behaviour when a file fails to load. Set to `true` to prevent an error being thrown if a file is missing or cannot be read as a utf-8 string. If a file fails to load then it will replace the value with an empty string. Default `false`.
 
